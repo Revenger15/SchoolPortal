@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">ModernLoginRegister</string>
+    <string-array name="questions">
+        <item>What was the house number and street name you lived in as a child?</item>
+        <item>What were the last four digits of your childhood telephone number?</item>
+        <item>What primary school did you attend?</item>
+        <item>In what town or city was your first full time job?</item>
+        <item>In what town or city did you meet your spouse or partner?</item>
+        <item>What is the middle name of your oldest child?</item>
+        <item>What are the last five digits of your driver&quot;s license number?</item>
+        <item>What is your grandmother&quot;s (on your mother's side) maiden name?</item>
+        <item>What is your spouse or partner&quot;s mother&quot;s maiden name?</item>
+        <item>In what town or city did your parents meet?</item>
+        <item>What time of the day were you born? (hh:mm)</item>
+        <item>What time of the day was your first child born? (hh:mm)</item>
+    </string-array>
 </resources>

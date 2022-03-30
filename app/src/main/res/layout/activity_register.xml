@@ -88,6 +88,7 @@
                 android:paddingEnd="6dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_person"
@@ -104,6 +105,7 @@
                 android:paddingEnd="6dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_email"
@@ -122,6 +124,7 @@
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_lock"
@@ -129,11 +132,36 @@
                     android:hint="Password"
                     android:inputType="textPassword" />
             </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/questions"
+                android:padding="12dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@android:drawable/ic_menu_help"
+                    android:drawablePadding="6dp"
+                    android:hint="Answer"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRegister"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:background="@drawable/login_btn_bg"
